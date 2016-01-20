@@ -1,0 +1,126 @@
+@font-face {
+	font-family: saxmono;
+	src: url(https://www.dropbox.com/s/3bxbawa7fhwqan4/saxmono%5B1%5D.ttf?dl=1);
+}
+
+body {
+	_border: 1px solid black;
+	margin-left:0;
+	margin-right:0;
+	
+	text-align: center;
+	font-family: calibri;
+	
+	background-color: white;
+	
+}
+
+#title {
+	font-family: saxmono, monospace;
+	color: black;
+}
+#title > a {
+	text-decoration: none;
+	color: inherit;
+}
+#title > a:hover {
+	color: white;
+	text-shadow: -2px 2px 2px #BBB;
+	text-decoration: underline;
+}
+#title > a:visited {
+	color: inherit;
+}
+
+
+
+#news-field {
+	display: block;
+	_border: 2px dotted yellow;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 128px;
+	
+	
+}
+
+.story-container {
+	border: 1px solid white;
+	color: white;
+	text-shadow: 
+		 0px  0px 1px black,
+		 1px  1px 2px black,
+		 1px -1px 2px black,
+		-1px  1px 2px black,
+		-1px -1px 2px black;
+	display: inline-block;	
+	vertical-align: top;
+	margin: 0;
+	width: 249px;
+	height: 249px;
+	
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.story-container:hover {
+	text-shadow: 
+		 0px  0px 1px white,
+		 1px  1px 2px black,
+		 1px -1px 2px black,
+		-1px  1px 2px black,
+		-1px -1px 2px black;
+}
+
+/*each story-link fits snug inside a story-container*/
+.story-link {
+	display: inline-block;
+	_border: 1px solid red;
+	
+	color: white;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	
+	
+	
+	
+}
+
+.story-headline {
+	display: inline-block;
+	margin-top: 0.5em;
+	width: 100%;
+	background-color: rgba(128, 128, 128, 0.2);
+	font-size: 1.1em;
+}
+
+.story-poster {
+	display: inline-block;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	margin: 0 0 0.5em 1.8em;
+}
+
+.story-upvotes {
+	display: inline-block;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	margin: 0 1.5em 0.4em 0;
+	
+	width: 1.2em;
+	height: 1.2em;
+	
+	
+	
+	text-align: center;
+	
+	
+	border: 2px solid rgba(170,170,170, 0.5);
+	border-radius: 1.2em;
+	
+}
+
