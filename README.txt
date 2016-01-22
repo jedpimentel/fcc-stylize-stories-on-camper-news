@@ -9,3 +9,5 @@ I noticed that (as of Jan 18, 2016) the codepen shown in the video was not the s
 Each link is assigned to a tile, ordered left to right, top to bottom. They are in the same order as they are listed by the API, which is not chronological.
 
 Each tile contains the news header at the top, username of contributer at the bottomn left and the upvotes at the bottom right. Tile background is either the preview image, user avatar, or a random pastel color (by order of priority).
+
+Jose Eduardo Pimentel @jedpimentel

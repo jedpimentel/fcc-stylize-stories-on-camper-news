@@ -4,15 +4,10 @@
 }
 
 body {
-	_border: 1px solid black;
 	margin-left:0;
 	margin-right:0;
-	
 	text-align: center;
 	font-family: calibri;
-	
-	background-color: white;
-	
 }
 
 #title {
@@ -24,7 +19,6 @@ body {
 	color: inherit;
 }
 #title > a:hover {
-	color: white;
 	text-shadow: -2px 2px 2px #BBB;
 	text-decoration: underline;
 }
@@ -32,16 +26,10 @@ body {
 	color: inherit;
 }
 
-
-
 #news-field {
 	display: block;
-	_border: 2px dotted yellow;
 	margin-left: 0;
 	margin-right: 0;
-	margin-bottom: 128px;
-	
-	
 }
 
 .story-container {
@@ -58,8 +46,6 @@ body {
 	margin: 0;
 	width: 249px;
 	height: 249px;
-	
-	
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -76,16 +62,10 @@ body {
 /*each story-link fits snug inside a story-container*/
 .story-link {
 	display: inline-block;
-	_border: 1px solid red;
-	
 	color: white;
 	height: 100%;
 	width: 100%;
 	position: relative;
-	
-	
-	
-	
 }
 
 .story-headline {
@@ -110,17 +90,14 @@ body {
 	bottom: 0;
 	position: absolute;
 	margin: 0 1.5em 0.4em 0;
-	
 	width: 1.2em;
 	height: 1.2em;
-	
-	
-	
 	text-align: center;
-	
-	
 	border: 2px solid rgba(170,170,170, 0.5);
 	border-radius: 1.2em;
-	
 }
 
+.signature {
+	display: block;
+	margin: 64px;
+}
