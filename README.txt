@@ -1,4 +1,4 @@
-Created as part of the freecodecamp.com curriculum
+Originally reated as part of the freecodecamp.com curriculum
 http://www.freecodecamp.com/challenges/stylize-stories-on-camper-news
 
 pen in video http://codepen.io/GeoffStorbeck/full/Wveezv
@@ -10,4 +10,5 @@ Each link is assigned to a tile, ordered left to right, top to bottom. They are 
 
 Each tile contains the news header at the top, username of contributer at the bottomn left and the upvotes at the bottom right. Tile background is either the preview image, user avatar, or a random pastel color (by order of priority).
 
-Jose Eduardo Pimentel @jedpimentel
+Jose Eduardo Pimentel
+/jedpimentel

@@ -2,7 +2,7 @@
 //console.log(news);
 
 var req = new XMLHttpRequest();
-req.open("GET", "http://www.freecodecamp.com/news/hot", true);
+req.open("GET", "https://www.freecodecamp.com/news/hot", true);
 req.addEventListener("load", function() {
 	if (req.status !== 200) {
 		noJSON();

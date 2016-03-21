@@ -1,6 +1,9 @@
 @font-face {
 	font-family: saxmono;
+	src: url(saxmono.ttf);
+	/*
 	src: url(https://www.dropbox.com/s/3bxbawa7fhwqan4/saxmono%5B1%5D.ttf?dl=1);
+	*/
 }
 
 body {
@@ -49,6 +52,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	overflow: hidden;
 }
 .story-container:hover {
 	text-shadow: 
